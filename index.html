@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
    <meta charset="UTF-8"/>
 <title>freeCodeCamp Survey Form</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">Thank you for taking the time to help us improve the platform</p>
+  <h1>freeCodeCamp Survey Form</h1>
+<p>Thank you for taking the time to help us improve the platform</p>
 <form id="survey-form">
 <fieldset>
-  </fieldset>
-  </div>
-  <div>
         <label id="name-label">Name: 
           <input placeholder="Enter your name" id="name" class="name" type="text" name="name" required /></label>
-          </div>
-          <div>
         <label id="email-label">Email: 
           <input placeholder="Enter your Email" id="email" type="email" name="last-name" required /></label> </div>
-          <div>
       <label id="number-label">Age(optional): 
 <input placeholder="Age" id="number" type="number" min="10" max="99" ></input></label>
-       </div>
         <label>Which option best describes your current role? 
       <select id="dropdown" name="referrer">
             <option value="1">Student</option>
@@ -31,47 +24,49 @@
             <option value="4">Prefer not to say</option>
              <option value="5">Other</option>
           </select>
+          </label>
       </fieldset>
        <fieldset>
+        <div>
+          <label>Would you recommend freeCodeCamp to a friend?</label> 
+        </div>
+        <div>
         <label><input type="radio" name="account-type" class="inline" value="definitely" />Definitely</label>
         <label><input type="radio" name="account-type" class="inline" value="maybe" />Maybe</label>
-         <label><input type="radio" name="account-type" class="inline" value="not sure" />Not sure</label>
+        <label><input type="radio" name="account-type" class="inline" value="not sure" />Not sure</label>
+        </div>
  </fieldset>
    <fieldset>
      <div>
-<input id="Front-end Projects" type="checkbox" name="Front-end Projects" value="Front-end Projects" checked>
- <label for="Front-end Projects">Front-end Projects</label>
+      <label>What would you like to see improved? (Check all that apply)</label> 
     </div>
-           <div><input id="BackendProjects" type="checkbox" name="Back-end Projects" value="Back-end Projects"> <label for="BackendProjects">Back-end Projects</label> </div>
-          
-            <label for="DataVisualization">Data Visualization</label> <input id="DataVisualization" type="checkbox" name="Data Visualization" value="Data Visualization">
-           
-             <label for="Challenges">Challenges</label> <input id="Challenges" type="checkbox" name="Challenges" value="Challenges">
-             
-     <label for="Open Source Community">Open Source Community</label><input id="Open Source Community" type="checkbox" name="Open Source Community" value="Open Source Community"> 
-            
-         <label for="Gitter help rooms">Gitter help rooms</label>    <input id="Gitter help rooms" type="checkbox" name="Gitter help rooms" value="Gitter help rooms"> 
-           
-           <label for="Videos">Videos</label>    <input id="Videos" type="checkbox" name="Videos" value="Videos">
-
-            <label for="City Meetups">City Meetups</label>   <input id="City Meetups" type="checkbox" name="City Meetups" value="City Meetups"> 
-               
-      <label for="Wiki">Wiki
- </label><input id="Wiki" type="checkbox" name="Wiki" value="Wiki">         
-              
- <label for="Forum"> Forum
- </label>  <input id="Forum" type="checkbox" name="Forum" value="Forum">
-             
- <label for="Additional Courses">Additional Courses</label><input id="Additional Courses" type="checkbox" name="Additional Courses" value="Additional Courses">
-
-           </fieldset>
-           <fieldset>
-  <label>Any comments or suggestions?
-    </br>
-          <textarea  placeholder="Enter your comment here"></textarea>
-			  </label> 
-              <input id="submit" type="submit" value="Submit">
+             <div>
+              <label for="Front-end Projects"><input id="Front-end Projects" type="checkbox" name="Front-end Projects" value="Front-end Projects" checked> Front-end Projects</label>
+              <label for="BackendProjects"><input id="BackendProjects" type="checkbox" name="Back-end Projects" value="Back-end Projects"> Back-end Projects</label> </div>
+              <label for="DataVisualization"><input id="DataVisualization" type="checkbox" name="Data Visualization" value="Data Visualization"> Data Visualization</label>
+              <label for="Challenges"><input id="Challenges" type="checkbox" name="Challenges" value="Challenges"> Challenges</label>
+              <label for="Open Source Community"><input id="Open Source Community" type="checkbox" name="Open Source Community" value="Open Source Community"> Open Source Community</label> 
+              <label for="Gitter help rooms"><input id="Gitter help rooms" type="checkbox" name="Gitter help rooms" value="Gitter help rooms"> Gitter help rooms</label>
+              <label for="Videos"><input id="Videos" type="checkbox" name="Videos" value="Videos"> Videos</label>
+              <label for="City Meetups"><input id="City Meetups" type="checkbox" name="City Meetups" value="City Meetups"> City Meetups</label>
+              <label for="Wiki"><input id="Wiki" type="checkbox" name="Wiki" value="Wiki"> Wiki</label>        
+              <label for="Forum"><input id="Forum" type="checkbox" name="Forum" value="Forum"> Forum</label>
+              <label for="Additional Courses"><input id="Additional Courses" type="checkbox" name="Additional Courses" value="Additional Courses"> Additional Courses</label>
+            </div>
+  </fieldset>
+    <fieldset>
+        <label>Any comments or suggestions?</label>
+          <textarea placeholder="Enter your comment here"></textarea>
+          <button onclick="myFunction()">Submit</button>
+          <script>
+             function myFunction() {
+              alert("Thanks;)");
+            }
+          </script>
      </fieldset>
        </form>
         </body>
         </html>
+
+
+        
