@@ -6,20 +6,20 @@
     <link rel="stylesheet" type="text/css" href="./style.css" >
   </head>
   <body>
-    <h1>freeCodeCamp Survey Form</h1>
+    <h1 class="indent">freeCodeCamp Survey Form</h1>
     <p>Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
       <fieldset>
-        <label id="name-label">Name: 
+        <label id="name-label" class="indent">Name:</label>
           <input placeholder="Enter your name" id="name" class="name" type="text" name="name" required />
-        </label>
-        <label id="email-label">Email: 
+        <br />
+        <label id="email-label" class="indent">Email:</label> 
           <input placeholder="Enter your Email" id="email" class="name" type="email" name="last-name" required />
-        </label> 
-        <label id="number-label">Age(optional): 
+        <br/>
+        <label id="number-label" class="indent">Age(optional):</label> 
           <input placeholder="Age" id="number" class="name" type="number" min="10" max="99" />
-        </label>
-        <label>Which option best describes your current role? 
+        <br/>
+        <label class="indent">Which option best describes your current role?</label>
           <select id="dropdown" class="name" name="referrer">
             <option value="1">Student</option>
             <option value="2">Full Time Job</option>
@@ -27,11 +27,11 @@
             <option value="4">Prefer not to say</option>
             <option value="5">Other</option>
           </select>
-        </label>
+          <br />
       </fieldset>
 
       <fieldset>
-        <label>Would you recommend freeCodeCamp to a friend?</label> 
+        <label class="indent">Would you recommend freeCodeCamp to a friend?</label> 
         <div class="listElement">
           <label>
             <input type="radio" name="account-type" class="inline" value="definitely" />
@@ -53,7 +53,7 @@
       </fieldset>
 
       <fieldset>
-        <label>What would you like to see improved? (Check all that apply)</label> 
+        <label class="indent">What would you like to see improved? (Check all that apply)</label> 
         <div class="listElement">
           <input id="Front-end Projects" type="checkbox" name="Front-end Projects" value="Front-end Projects" checked />
           <label for="Front-end Projects">
@@ -122,7 +122,7 @@
       </fieldset>
 
       <fieldset class="comment">
-          <label>Any comments or suggestions?</label>
+          <label class="indent">Any comments or suggestions?</label>
           <textarea placeholder="Enter your comment here"></textarea>
           <button onclick="myFunction()">Submit</button>
           <script>
