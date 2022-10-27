@@ -29,6 +29,10 @@ div label {
   display: inline;
 }
 
+#name-label {
+  margin-top: 10px;
+}
+
 .indent {
 margin-bottom: 10px;
 } 
@@ -67,6 +71,7 @@ button {
     display: block;
     width: 60%;
     margin: 1em auto;
+    margin-bottom: 5px;
     height: 2em;
     font-size: 1.1rem;
     border-color: black;
