@@ -1,0 +1,94 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #00008B;
+  font-family: sans-serif;
+  background: url('https://www.brandwatch.com/wp-content/uploads/2016/01/iStock_000012812121_Large-1024x682.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: Tahoma;
+  font-size: 16px;
+  border-width: 0;
+  border-radius: 2px;
+}
+
+.name {
+  display:block;
+  width: 90%;
+  padding: 5px 5px;
+}
+
+label {
+  display: block;
+  margin: 0.05rem 0;
+}
+
+div label {
+  display: inline;
+}
+
+#name-label {
+  margin-top: 10px;
+}
+
+.indent {
+margin-bottom: 10px;
+} 
+
+.name {
+  margin-bottom: -5px;
+}
+
+.listElement {
+  margin-bottom: 10px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+    width: 50vw;
+    background-color:#f5f6f7;
+    max-width: 600px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: none;
+    border-bottom: 2px solid #3b3b4f;
+}
+
+button {
+    text-align: center;
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    margin-bottom: 5px;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: black;
+    min-width: 300px;
+    border-width: 1px; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.comment {
+  border: none;
+}
+
+textarea {
+    width:90%;
+    border-width: 1;
+    border-radius: 2px;
+    height: 15vh; 
+    padding-left: 5px;
+}
